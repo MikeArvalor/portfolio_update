@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1270px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.first_block{
+    background: url(../img/fon.jpg) no-repeat center center;
+    background-size: cover;
+    height: 780px;
+    background-attachment: fixed;
+
+    & .first_block_wrapper{
+        background-color: rgba(44, 62, 80, 0.5);
+        height: 780px;
+      
+        & .text_block{
+            padding-top: 25%;
+            text-align: center;
+            & .txt1{
+                font-size: 20px;
+                color: #fff;
+                font-style: Roboto;
+            }
+            & .txt2{
+                color: #fff;
+                font-weight: 800;
+                font-size: 36px;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                font-family: Roboto;
+                margin: 15px 0 15px 0;
+            }
+            & .txt3{
+                color: #fff;
+                font-size: 20px;
+                font-family: Roboto;
+            }
+        }
+        & .circle_block{
+            cursor: pointer;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            left: 48%;
+            bottom: 40px;
+            position: absolute;
+            & .line{
+               & img{
+                transform: rotate();
+                height: 35px;
+                width: 35px;
+                margin-top: 12px;
+               }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.contact_block{
+    & .contact_wrapper{
+      margin-bottom: 50px;
+        & .contact_title{
+            margin-bottom: 30px;
+            & .text{
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+                font-family: Roboto;
+                margin-bottom: 15px;
+            }
+            & .hr{
+                width: 5%;
+                margin: 0 auto;
+            }
+        }
+        & .contact_list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 0 auto;
+            text-align: center;
+            & li{
+                text-decoration: none;
+                list-style-type: none;
+                font-size: 20px;
+                line-height: 40px;
+                & i{
+
+                }
+                & .fa-envelope{
+                    color: rgb(225, 19, 19);
+                    font-size: 25px;
+                }
+                & .fa-github{
+                    
+                    font-size: 25px;
+                }
+                & .fa-linkedin{
+                    color: rgb(46, 19, 225);
+                    font-size: 25px;
+                }
+                & .fa-telegram{
+                    color: rgb(19, 77, 225);
+                    font-size: 25px;
+                }
+                & a{
+                    text-decoration: none;
+                    color: rgb(0, 0, 0);
+                    font-weight: bold;
+                    
+                }
+            }
+        }
+    }
+}

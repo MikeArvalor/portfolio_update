@@ -1,0 +1,282 @@
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(../fonts/RobotoCondensed/RobotoCondensed-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(../fonts/RobotoCondensed/RobotoCondensed-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(../fonts/RobotoCondensed/RobotoCondensed-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+.header_block {
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 40px;
+}
+.header_block .header_wrapper .links {
+  max-width: 1140px;
+  display: flex;
+  justify-content: flex-end;
+}
+.header_block .header_wrapper .links li {
+  text-transform: uppercase;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 15px 10px 15px 10px;
+  letter-spacing: 2px;
+  color: #222;
+  font-family: Roboto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.first_block {
+  background: url(../img/fon.jpg) no-repeat center center;
+  background-size: cover;
+  height: 780px;
+  background-attachment: fixed;
+}
+.first_block .first_block_wrapper {
+  background-color: rgba(44, 62, 80, 0.5);
+  height: 780px;
+}
+.first_block .first_block_wrapper .text_block {
+  padding-top: 25%;
+  text-align: center;
+}
+.first_block .first_block_wrapper .text_block .txt1 {
+  font-size: 20px;
+  color: #fff;
+  font-style: Roboto;
+}
+.first_block .first_block_wrapper .text_block .txt2 {
+  color: #fff;
+  font-weight: 800;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: Roboto;
+  margin: 15px 0 15px 0;
+}
+.first_block .first_block_wrapper .text_block .txt3 {
+  color: #fff;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.first_block .first_block_wrapper .circle_block {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  left: 48%;
+  bottom: 40px;
+  position: absolute;
+}
+.first_block .first_block_wrapper .circle_block .line img {
+  transform: rotate();
+  height: 35px;
+  width: 35px;
+  margin-top: 12px;
+}
+
+.project_block .project_wrapper {
+  margin-bottom: 50px;
+}
+.project_block .project_wrapper .project_title p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Roboto;
+  margin-bottom: 15px;
+}
+.project_block .project_wrapper .project_title .hr {
+  width: 5%;
+  margin: 0 auto;
+}
+.project_block .project_wrapper .project_card {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.project_block .project_wrapper .project_card .card {
+  border-bottom: none;
+  background-color: #9e5406;
+}
+.project_block .project_wrapper .project_card .card .text {
+  position: absolute;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 10px;
+  color: #fff;
+  word-spacing: 0.1em;
+  font-size: 20px;
+  text-transform: uppercase;
+  z-index: 1000;
+  font-weight: 300;
+}
+.project_block .project_wrapper .project_card .card .img_block {
+  opacity: 0.8;
+}
+.project_block .project_wrapper .project_card .card .img_block img {
+  width: 100%;
+  height: 280px;
+}
+.project_block .project_wrapper .project_card .card:hover {
+  cursor: pointer;
+}
+.scale {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.scale img {
+  transition: 1s;
+  display: block;
+}
+
+.scale img:hover {
+  transform: scale(1.2);
+}
+
+.about_block .about_wrapper {
+  margin-bottom: 50px;
+}
+.about_block .about_wrapper .about_title {
+  margin-bottom: 50px;
+}
+.about_block .about_wrapper .about_title p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Roboto;
+  margin-bottom: 15px;
+}
+.about_block .about_wrapper .about_title .hr {
+  width: 5%;
+  margin: 0 auto;
+}
+.about_block .about_wrapper .about_text p {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+  font-family: Roboto;
+}
+.about_block .about_wrapper .about_links .text {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 20px;
+}
+.about_block .about_wrapper .about_links .links li {
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 20px;
+}
+.about_block .about_wrapper .about_links .links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: 1px solid #000;
+}
+.about_block .about_wrapper .about_links .links p {
+  font-size: 20px;
+}
+.about_block .about_wrapper .about_links .links p a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: 1px solid #000;
+}
+.about_block .about_wrapper .about_links .links p span {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.top {
+  transition: 1s;
+}
+
+.contact_block .contact_wrapper {
+  margin-bottom: 50px;
+}
+.contact_block .contact_wrapper .contact_title {
+  margin-bottom: 30px;
+}
+.contact_block .contact_wrapper .contact_title .text {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Roboto;
+  margin-bottom: 15px;
+}
+.contact_block .contact_wrapper .contact_title .hr {
+  width: 5%;
+  margin: 0 auto;
+}
+.contact_block .contact_wrapper .contact_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact_block .contact_wrapper .contact_list li {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 40px;
+}
+.contact_block .contact_wrapper .contact_list li .fa-envelope {
+  color: rgb(225, 19, 19);
+  font-size: 25px;
+}
+.contact_block .contact_wrapper .contact_list li .fa-github {
+  font-size: 25px;
+}
+.contact_block .contact_wrapper .contact_list li .fa-linkedin {
+  color: rgb(46, 19, 225);
+  font-size: 25px;
+}
+.contact_block .contact_wrapper .contact_list li .fa-telegram {
+  color: rgb(19, 77, 225);
+  font-size: 25px;
+}
+.contact_block .contact_wrapper .contact_list li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
