@@ -1,0 +1,102 @@
+@media (max-width:992px){
+   
+    .project_block{
+        & .project_wrapper{
+            & .project_card{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}
+@media(max-width:769px){
+    .first_block{
+        height: 400px;
+        & .first_block_wrapper{
+            height: 400px;
+            & .text_block{
+                padding-top: 50px;
+            }
+            & .circle_block{
+                bottom: 52%;
+                left: 45%;
+            }
+    }
+}
+    .project_block{
+        & .project_wrapper{
+            & .project_card{
+                grid-template-columns: 1fr ;
+            }
+        }
+    }
+    .contact_block{
+        & .contact_wrapper{
+            & .contact_list{
+                grid-template-columns: 1fr;
+                text-align: left;
+            }
+        }
+    }
+}
+@media (max-width:426px){
+    .first_block{
+     
+        & .first_block_wrapper{
+            
+            & .text_block{
+            
+            }
+            & .circle_block{
+                bottom: 52%;
+                left: 43%;
+            }
+    }
+}
+    .container{
+        padding: 0 10px;
+    }
+    .contact_block{
+        & .contact_wrapper{
+            & .contact_title{
+               & .text{
+                font-size: 24px;
+               }
+            }
+        }
+    }
+    .about_block{
+        & .about_wrapper{
+            & .about_title{
+                & p{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .project_block{
+        & .project_wrapper{
+            & .project_title{
+                font-size: 24px;
+            }
+            & .dowland_cv{
+                & p{
+                    font-size: 24px;
+                }
+            }
+            & .project_card{
+                & .card{
+                    & .text{
+                        font-size: 18px;
+                        
+                    }
+                    height: 200px;
+                    & .img_block{
+                        & img{
+                            height: 200px;
+                        }
+                    }
+                }
+            }}}
+         
+        
+}
